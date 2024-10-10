@@ -10,7 +10,6 @@
     <meta name="keywords" content="cars, rent, online" />
     <meta name="author" content="Hamza Bouchikhi" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/contact.css" />
 </head>
 
 <body style="overflow-x: hidden">
@@ -21,35 +20,53 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="Advantages.html">Advantages</a></li>
-                <li><a href="port.html">Gallery</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="cart.html">Cart</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
 
             </ul>
         </nav>
     </header>
-    <section class="contact-us">
-        <div class="container">
-            <h1>Contact Us</h1>
-            <p>If you have any questions or need further assistance, feel free to reach out to us.</p>
-            <form action="submit_form.php" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required />
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <input type="submit" value="Send Message" class="btn" />
-            </form>
-        </div>
-    </section>
+    <section class="gallery">
+        <h2>Take A <span>Look</span></h2>
+        <p>
+            Here, you can explore a curated collection of images showcasing our diverse fleet and the memorable
+            experiences our customers have had with GoCar. From scenic road trips to special events, our vehicles are
+            ready to accompany you on your journey.
 
+            We invite you to browse through our photos and get inspired for your next adventure. Whether you’re looking
+            for the perfect car for a weekend getaway or a stylish ride for a special occasion, our gallery highlights
+            the possibilities that await you with GoCar. enjoyable
+        </p>
+        <div class="gallery-container container">
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Audi R8 <span>- The Limitless Car</span></h3>
+                </div>
+                <img src="images/car3.jpg" alt="Car" />
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Audi R9 <span>- The Real Way</span></h3>
+                </div>
+                <img src="images/car4.jpg" alt="Car" />
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Audi R11 <span>- A Car!</span></h3>
+                </div>
+                <img src="images/car5.jpg" alt="Car" />
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Audi R7 <span>- Ultimate Experience</span></h3>
+                </div>
+                <img src="images/car6.jpg" alt="Car" />
+            </div>
+
+        </div>
+        <a class="btn" href="gallery.html">View Gallery</a>
+    </section>
     <footer class="container">
         <div class="footer-inner">
             <div>
