@@ -870,7 +870,6 @@ input[type="submit"]:hover {
   color: #fff;
 }
 
-
 @media (max-width: 575px) {
   section.adv .icon-container {
     -ms-grid-columns: 1fr;
